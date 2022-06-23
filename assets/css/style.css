@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #4A4DE8;
+    background-color: #1A0F91;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 .portfolio {
-    color: #000000;
+    color: #FE7062;
 }
 
 .header nav {
@@ -44,7 +44,7 @@ body {
 }
 
 a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -71,12 +71,6 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,7 +86,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #00000018;
+    background-color: #E4EBFD;
     color: #000000;
 }
 
@@ -144,8 +138,10 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #FE7062;
 }
 
 .footer h4 {
     font-size: 20px;
+    color: #FE7062;
 }
