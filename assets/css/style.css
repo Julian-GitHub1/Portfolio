@@ -90,9 +90,6 @@ p {
     color: #000000;
 }
 
-.about-me img {
-    max-height: 200px;
-}
 
 .my-projects img {
     max-height: 200px;
@@ -120,6 +117,11 @@ p {
     color: #000000;
 }
 
+h3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .my-projects h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -144,4 +146,13 @@ p {
 .footer h4 {
     font-size: 20px;
     color: #FE7062;
+}
+
+@media screen and (max-width:800px) {
+    .my-projects {
+        display: flex;
+        flex-direction: column;
+
+        
+    }
 }
